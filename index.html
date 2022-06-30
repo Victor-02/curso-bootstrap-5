@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no" />
+        <link rel="stylesheet" href="style/css/bootstrap.css" />
+        <link rel="stylesheet" href="style/css/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-light fixed-top py-3 box-shadow">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/caravan.svg" alt="logo" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Abrir Navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collape navbar-collapse item-nav" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <div class="dropdown">
+                            <li class="nav-item">
+                                <a
+                                    href="#"
+                                    class="nav-link dropdown-toggle"
+                                    id="navdropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    href="#"
+                                    >Locations</a
+                                >
+
+                                <ul class="dropdown-menu" aria-labelledby="navdropdown">
+                                    <li><a class="dropdown-item" href="#">Paris</a></li>
+                                    <li><a class="dropdown-item" href="#">California</a></li>
+                                    <li><a class="dropdown-item" href="#">Dublin</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="price.html">Price</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary mx-md-3" href="subscribe.html">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="container-fluid">
+            <div class="row bg-dark text-white">
+                <div class="col-lg-7 p-0">
+                    <div id="carouselCities" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/california.jpg" class="d-block w-100" alt="California" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1 class="display-1">California</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/paris.jpg" class="d-block w-100" alt="Paris" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1 class="display-1">Paris</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/dublin.jpg" class="d-block w-100" alt="Dublin" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1 class="display-1">Dublin</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselCities"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselCities"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-5 py-5">
+                    <h1 class="display-4">Take your dream trip</h1>
+                    <p class="lead">The best place to travel is the Caravan, over 5,000 tours completed</p>
+                    <div class="row align-items-center">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="E-mail" />
+                            <button type="button" class="btn btn-primary">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-light text-center">
+            <div class="container">
+                <span class="h6 d-block">THE BEST FOR YOU</span>
+                <h2 class="display-4 text-primary">Enjoy the advantages</h2>
+            </div>
+        </section>
+        <script type="text/javascript" src="style/js/bootstrap.bundle.js  "></script>
+        <script type="text/javascript" src="style/js/app.js"></script>
+    </body>
+</html>
